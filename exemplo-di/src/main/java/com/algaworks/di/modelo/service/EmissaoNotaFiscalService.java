@@ -4,6 +4,7 @@ import com.algaworks.di.modelo.Cliente;
 import com.algaworks.di.modelo.Produto;
 import com.algaworks.di.modelo.notificacao.Notificador;
 import com.algaworks.di.modelo.notificacao.NotificadorEmail;
+import com.algaworks.di.modelo.notificacao.NotificadorSMS;
 
 public class EmissaoNotaFiscalService {
 
@@ -17,6 +18,7 @@ public class EmissaoNotaFiscalService {
         //TODO emite a nota fiscal aqui...
 
         //NotificadorEmail notificador = new NotificadorEmail();
+        //NotificadorSMS notificador = new NotificadorSMS();
         notificador.notificar(cliente, "Nota fiscal do produto: " + produto.getNome() + " foi emitida!");
 
     }

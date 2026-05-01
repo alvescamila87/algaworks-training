@@ -36,6 +36,6 @@ public class Main {
 
         EmissaoNotaFiscalService notaFiscal = new EmissaoNotaFiscalService(notificador);
 
-        notaFiscal.emitir(joao, tv);
+        notaFiscal.emitir(maria, tv);
     }
 }
