@@ -9,11 +9,10 @@ public class Cliente {
 
     public Cliente() {}
 
-    public Cliente(String nome, String telefone, String email, boolean ativo) {
+    public Cliente(String nome, String telefone, String email) {
         this.nome = nome;
         this.telefone = telefone;
         this.email = email;
-        this.ativo = ativo;
     }
 
     public String getNome() {
